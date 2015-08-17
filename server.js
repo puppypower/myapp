@@ -126,7 +126,7 @@ var SampleApp = function() {
      *  Initializes the sample application.
      */
     self.initialize = function() {
-        console.log('self initialize........');
+        console.log('self initialize........test git...');
         self.setupVariables();
         self.populateCache();
         self.setupTerminationHandlers();
