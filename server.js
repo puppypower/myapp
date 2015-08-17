@@ -126,6 +126,7 @@ var SampleApp = function() {
      *  Initializes the sample application.
      */
     self.initialize = function() {
+        console.log('self initialize........');
         self.setupVariables();
         self.populateCache();
         self.setupTerminationHandlers();
